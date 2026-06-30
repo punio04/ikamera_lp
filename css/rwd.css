@@ -1,0 +1,560 @@
+@charset "UTF-8";
+
+@media only screen and (max-width : 768px) {
+
+  body {
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  h2 {
+    margin: 0em 0em 0.5em 0em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h3 {
+    padding: 0.3em 0.6em;
+    font-size: 1.4em;
+  }
+
+  h4 {
+    margin: 0.5em 0em;
+    padding: 0.3em 0.6em;
+    font-size: 1.4em;
+
+  }
+
+  h5 {
+    margin: 0.5em 0em;
+    padding: 0.1em;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .main {
+    background-color: #f2f2f2;
+  }
+
+  .article {
+    background-color: #fff;
+    border-left: none;
+    border-right: none;
+    font-size: 1.6em;
+  }
+
+  .article p {
+    line-height: 1.6;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .top_image_in,
+  .section_inr {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .top_image {
+    background-image: none
+  }
+
+  .top_image_in img {
+    width: 100%;
+  }
+
+  .header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 5000;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+  }
+
+  .header_inr {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0em 1em;
+    overflow: hidden;
+  }
+
+  .header_logo {
+    width: 40%;
+    float: left;
+    margin: 0;
+  }
+
+  .header_contact {
+    width: 50%;
+    float: right;
+  }
+
+  .header_logo img,
+  .header_contact img {
+    width: 100%;
+  }
+
+  .section_01,
+  .section_02,
+  .section_04_2,
+  .section_05,
+  .section_06,
+  .section_08,
+  .section_09,
+  .section_10,
+  .section_11,
+  .section_12,
+  .section_13,
+  .section_14 {
+    padding: 2em 0.6em;
+  }
+
+  .section_02 {
+    padding: 2em 0 0;
+  }
+
+  .introduction {
+    display: block;
+  }
+
+  .sec_top h2 {
+    font-size: clamp(28px, 3vw, 34px);
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: "Noto Serif JP", serif;
+    font-weight: normal;
+  }
+
+  .qualification {
+    width: 95%;
+    margin-right: 0;
+    margin: auto;
+    margin-bottom: 0.6em;
+  }
+
+  .affiliated-academic-society {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .plan {
+    width: 80%;
+    margin: auto;
+  }
+
+  .plan_title p,
+  .access p,
+  .hospital-introduction p {
+    font-size: 0.98em;
+  }
+
+  .hospital_img_01 img,
+  .access img {
+    width: 80%;
+  }
+
+  .box {
+    width: 50%;
+    text-align: center;
+    padding: 0 0.4em 0.6em
+  }
+
+  .accordion-008 summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em;
+    color: #222222;
+    font-size: 1.4em;
+
+  }
+
+  .area_cta {
+    padding: 2em 0 1em;
+  }
+
+  .area_cta_inr {
+    padding: 0 1em;
+  }
+
+  .area_cta_btn {
+    width: 100%;
+  }
+
+  .Precautions p {
+    font-size: 0.8em;
+  }
+
+  .point {
+    font-size: 1.2em;
+  }
+
+  .footer {
+    padding: 2em 0em;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    padding-bottom: 8em;
+  }
+
+  .footer a {
+    color: #fff;
+  }
+
+  .fv_pc,
+  .cta_title_pc,
+  .worries_pc,
+  .solution_pc,
+  .point-title_pc,
+  .point_pc,
+  .evaluation_pc,
+  .director-introduction_pc,
+  .flow_pc,
+  .area_pc {
+    display: none !important;
+  }
+
+  .fv_sp,
+  .cta_title_sp,
+  .worries_sp,
+  .solution_sp,
+  .point-title_sp,
+  .point_sp,
+  .evaluation_sp,
+  .director-introduction_sp,
+  .area_sp,
+  .product_category_sp,
+  .flow_sp {
+    display: block !important;
+  }
+
+  .sec_contact .more.web a {
+    font-size: clamp(24px, 4vw, 20px);
+  }
+
+  .sec_contact .more.line a {
+    font-size: clamp(24px, 4vw, 20px);
+  }
+
+  .sec_contact .more.tel a {
+    font-size: clamp(24px, 4vw, 20px);
+  }
+
+  .sec_contact .more a:after {
+    width: 14px;
+    height: 14px;
+  }
+
+  .sec_contact .more.web a .ic:before {
+    width: 1em;
+    height: 1em;
+  }
+
+  .sec_contact .more.line a .ic:before {
+    width: 3.8em;
+    height: 1.7em;
+  }
+
+  .sec_contact .more.tel a .ic:before {
+    width: 0.8em;
+    height: 1em;
+  }
+
+  .sticky-inner {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    max-width: none;
+  }
+
+  .row .col_2 {
+    width: calc(74% - 10px) !important;
+  }
+
+  .accordion-008 p {
+    font-size: 1.2em;
+  }
+
+  .row .col_2:nth-child(3) .more,
+  .row .col_2:nth-child(3) p {
+    width: 100%;
+  }
+
+  .sec_contact .more.line a .ic:before {
+    left: 21%;
+  }
+
+  .plan_title p,
+  .access p,
+  .hospital-introduction p {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width : 550px) {
+  .sbtn-tel {
+    flex: 0 0 60px;
+  }
+
+  .sticky-bar {
+    padding: 10px 8px calc(10px + env(safe-area-inset-bottom));
+  }
+
+  .sticky-inner {
+    gap: 6px;
+  }
+
+  .sbtn {
+    gap: 6px;
+    font-size: 13.5px;
+    padding: 17px 6px;
+  }
+
+  .footer b {
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 2em 1em 8em;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .row .col_2 {
+    width: calc(100% - 10px) !important;
+  }
+
+  .alert-banner {
+    display: flex;
+    align-items: center;
+    transform: none;
+    box-shadow: rgba(22, 36, 62, 0.14) 0px 10px 26px;
+    gap: 14px;
+    margin: 20px 10px 0;
+    background: rgb(252 252 252);
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: rgb(181 29 47);
+    border-image: initial;
+    border-radius: 14px;
+    padding: 14px 12px;
+    text-decoration: none;
+  }
+
+  .section_09 {
+    padding: 0px;
+  }
+
+  .sec_top h2 {
+    font-size: clamp(20px, 3vw, 34px);
+    line-height: 1.6;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .sec_contact .top-txt {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .alert-banner span {
+    font-size: 14.5px;
+    color: rgb(48 47 47);
+  }
+
+  .alert-banner b {
+    display: block;
+    font-size: 18px;
+    color: rgb(175 32 50);
+    line-height: 1.5;
+  }
+
+  .sec_contact {
+    padding: 2em 0;
+  }
+
+  .section_03 {
+    padding: 0em;
+  }
+
+  .sub_txt {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 16px !important;
+  }
+
+  table.address {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .accordion-008 summary {
+    gap: 28px;
+    font-size: 1.2em;
+    padding: 1em 2em 1em 1em;
+  }
+
+  .accordion-008 p {
+    padding: .3em 1.5em 1.5em;
+  }
+
+  .table_fee thead th {
+    line-height: 25px;
+  }
+
+  .plan_title p,
+  .access p,
+  .hospital-introduction p {
+    font-size: 18px;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .sec_contact .more.google a {
+    background: #075f9e;
+    text-align: center;
+    font-size: clamp(20px, 4vw, 30px);
+    border-radius: 999px;
+  }
+
+  .sec_contact .more.google a .ic:before {
+    left: 17%;
+    width: 1em;
+    height: 1em;
+  }
+
+  .section_02 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .plan_title p,
+  .access p,
+  .hospital-introduction p {
+    font-size: 16px;
+  }
+
+  .sec_contact .more.line a .ic:before {
+    left: 8%;
+  }
+
+  .sub_txt {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 327px) {
+  .sp_only {
+    display: block;
+  }
+
+  .pc_only {
+    display: none;
+  }
+
+  .sbtn {
+    gap: 6px;
+    font-size: 10.5px;
+    padding: 17px 6px;
+  }
+
+  .sbtn-tel {
+    flex: 0 0 52px;
+  }
+
+  .footer {
+    padding: 2em 1em 6.5em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  .sec_contact .more.web a {
+    font-size: clamp(20px, 4vw, 20px);
+  }
+
+  .sec_contact .more.line a {
+    font-size: clamp(20px, 4vw, 20px);
+  }
+
+  .sec_contact .more.tel a {
+    font-size: clamp(20px, 4vw, 20px);
+  }
+
+  .sec_top h2 {
+    font-size: clamp(17px, 3vw, 34px);
+    line-height: 1.6;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .accordion-008 summary {
+    gap: 28px;
+    font-size: 1em;
+    padding: 1em 2em 1em 1em;
+  }
+
+  .accordion-008 p {
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: .3em 0em 1.5em 2em;
+    color: #222222;
+    transition: transform .5s, opacity .5s;
+    width: 90%;
+  }
+
+  .accordion-008 p {
+    font-size: 1em;
+  }
+
+  .sec_contact .more.google a {
+    background: #075f9e;
+    text-align: center;
+    font-size: clamp(18px, 4vw, 30px);
+    border-radius: 999px;
+  }
+
+  .sec_contact .more.google a .ic:before {
+    left: 11%;
+    width: 1em;
+    height: 1em;
+  }
+
+  .alert-banner b {
+    display: block;
+    font-size: 15px;
+    color: rgb(175 32 50);
+    line-height: 1.5;
+  }
+
+  .alert-banner span {
+    font-size: 12.5px;
+    color: rgb(48 47 47);
+  }
+}

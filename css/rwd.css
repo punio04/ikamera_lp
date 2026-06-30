@@ -260,7 +260,7 @@
   }
 
   .sec_contact .more.line a .ic:before {
-    width: 3.8em;
+    width: 1.7em;
     height: 1.7em;
   }
 
@@ -290,7 +290,7 @@
   }
 
   .sec_contact .more.line a .ic:before {
-    left: 21%;
+    left: 26%;
   }
 
   .plan_title p,
@@ -430,6 +430,10 @@
     display: none;
   }
 
+  .sec_contact .more.line a .ic:before {
+    left: 19%;
+  }
+
   .sec_contact .more.google a {
     background: #075f9e;
     text-align: center;
@@ -457,7 +461,7 @@
   }
 
   .sec_contact .more.line a .ic:before {
-    left: 8%;
+    left: 14%;
   }
 
   .sub_txt {
